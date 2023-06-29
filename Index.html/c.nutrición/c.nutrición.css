@@ -1,0 +1,246 @@
+/*tipo de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:wght@300&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;}
+body {background-color: black;
+color:#fff;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2365c23b' fill-opacity='0.18' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+font-size:16px;
+font-family: 'Poppins', sans-serif;}
+.container 
+{max-width: 1200px;
+margin: 0 auto;}
+.header {
+  background-image: url(/Nutri.img/nutri-header.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  align-items: center;
+  display: flex;
+  position: relative;}
+.menu 
+{position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;}
+.logo 
+{color: #f1f3f5;
+font-size: 35px;
+font-weight: 800;}
+.menu .navbar ul li
+{position: relative;
+float: left;}
+.menu .navbar ul li a 
+{ font-size: 18px;
+padding: 25px;
+color: #fff;
+display: block;
+font-weight: 600;}
+#menu 
+{display: none;}
+.menu-icono
+{width: 25px;}
+/*RESPONSIVO*/
+.menu label
+{cursor: pointer;
+display: none;}
+.header-txt 
+{text-align: center;}
+.header-txt h1 {font-size: 85px;
+color: #fff;
+text-transform: uppercase;
+margin-bottom: 20px;}
+.header-txt p
+{color: #f1f3f5;
+font-size: 16px;
+padding: 0 250px;
+margin-top: 40px;}
+.btn-1
+{cursor: pointer;
+  display: inline-block;
+border: 0;
+font-weight: bold;
+padding: 10px 20px;
+background-color: rgba(17, 154, 65, 0.788);
+color: #fff;
+font-size: 20px;
+border: 2px solid rgba(255, 255, 255, 0.829);
+margin: 10px 0px;
+margin-top: 50px;}
+.btn-1:hover{opacity: .9;
+color: #f1f3f5;
+background-color: black;}
+.general {padding: 50px 0;
+text-align: center;}
+.general-content 
+{display: flex;
+justify-content: space-between;
+margin-top: 55px;}
+.general-1  
+{background-image: url(/Nutri.img/legumbres.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+padding:  170px 55px;
+margin-right: 18px;
+margin-inline-end: 20px;}
+.general-2  
+{background-image: url(/Nutri.img/frutas.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+margin-left: 18px;
+padding:  170px 55px;
+margin-inline-end: 20px;}
+.general-3 
+{background-image: url(/Nutri.img/vegetales.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+padding:  170px 55px;
+margin-left: 18px;
+margin-inline-end: 20px;}
+.general-4  
+{background-image: url(/Nutri.img/pescado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+padding:  170px 55px;
+margin-right: 18px;
+margin-inline-end: 20px;}
+.general-5  
+{background-image: url(/Nutri.img/proteinas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+margin-left: 18px;
+padding:  170px 55px;
+margin-inline-end: 20px;}
+.general-6 
+{background-image: url(/Nutri.img/nueces.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 450px;
+padding:  170px 55px;
+margin-left: 18px;
+margin-inline-end: 20px;}
+h2{font-size: 70px;
+text-transform: uppercase;
+color: azure;}
+.txt h3
+{font-size: 30px;
+color: #f1f3f5;
+text-transform: uppercase;
+margin-bottom: 18px;}
+.txt p
+{color: #f1f3f5;
+font-size: 20px;}
+.info-1
+{padding: 250px 0;
+background-color:rgba(66, 122, 61, 0.589);}
+.info-content
+{text-align: center;}
+.info-content h2, span {color: #f1f3f5;}
+.info-circle 
+{display: flex;
+justify-content: space-between;
+margin-top: 55px;}
+.circle-txt
+{width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin: 0 10px;}
+.circle-1
+{height: 100px;
+width: 100px;
+border: 1px solid floralwhite;
+border-radius:50%;
+padding-top: 35px;}
+.circle-1 h3
+{color: floralwhite;
+  font-size: 16px;}
+.circle-txt p{
+    color: #f1f3f5;
+    margin-top: 25px;
+    text-align: center;}
+.info-2 {
+  padding: 50px 0; 
+  background-color: rgba(55, 99, 12, 0.384);
+  background-size:80;}
+.testi
+{display: flex;
+align-items: center;
+text-align: left;
+margin-top: 35px;}
+.testing-left {
+  width: 50%;
+  padding-right: 25px;}
+.testing-right {
+  width: 50%;
+  padding-left: 25px;}
+.testi-txt
+{margin-bottom: 25px;}
+.testi-txt img {
+  width: 80px;
+  margin-bottom: 15px;}
+.testi-txt h3
+ {font-size: 40px;
+font-weight: 800;
+color: rgb(150, 197, 178);}
+.info-2 h3
+{font-size: 35px;
+font-weight: 800;}
+.testi-txt p {
+color: #f1f3f5;
+font-size: 15px;}
+.footer {padding: 100px 0 0 0;
+text-align: center;}
+
+/**/
+.footer h3
+{font-size: 35px;
+font-weight: 800;}
+
+.form
+{margin-top: 35px;}
+
+.campo  {
+margin-right: 10px;
+padding: 17px 35px;
+border: 3px solid rgb(5, 117, 46);
+outline: none;
+color: rgb(4, 94, 21);}
+
+.campo ::placeholder
+{color: floralwhite;}
+
+.btn-2
+{padding: 17px 35px;
+border: 2px solid rgb(15, 78, 4);
+background:#164e03;
+color:#f1f3f5}
+
+.footer-txt {margin-top: 100px;
+border-top: 1px solid rgb(13, 133, 6);
+padding: 20px 0;}
+
+.footer-txt p 
+{color: rgb(44, 120, 5);
+font-size: 16px;}

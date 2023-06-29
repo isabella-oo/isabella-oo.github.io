@@ -1,0 +1,13 @@
+.regresar 
+  {cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: rgb(4, 46, 79);
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fdfdfd;
+  margin: 20px 20px;
+  margin-top: 50px;}
+.regresar:hover {opacity: .6 ;}
